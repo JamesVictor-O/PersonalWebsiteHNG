@@ -10,7 +10,17 @@ body{
     background-color: rgb(248, 247, 245);
     height: 110vh;
 }
-
+.menu{
+    background-color: rgb(71, 6, 6);
+    width: 100%;
+    height: 10%;
+}
+.menu li{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 2rem;
+}
 .header{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -18,16 +28,46 @@ body{
 .header{
     font-size: 30px;
 }
-img{
+.profile-picture{
     max-width: 100%;
+    height: auto;
+}
+.profile-picture img{
+    width: 100%;
+    display: block;
     height: auto;
 }
 .my-details{
     margin: 2rem;
 }
-.profile-picture{
-    margin: 2rem;
-}
 .detail{
    margin-bottom: 1rem;
+}
+.lable{
+    font-size: 15px;
+}
+.value{
+    font-size: 15px;
+}
+.goal-header{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+
+ a{
+    margin-bottom: 30px;
+  }
+@media (min-width: 900px){
+  .discrition{
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-picture{
+    max-width: 30%;
+  }
+  
 }
