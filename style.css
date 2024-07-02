@@ -67,7 +67,7 @@ body{
     flex-direction: row;
   }
   .profile-picture{
-    max-width: 30%;
+    max-width: 100%;
   }
   
 }
