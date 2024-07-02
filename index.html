@@ -14,12 +14,12 @@
     </head>
     <main class="discrition">
        <div class="profile-picture">
-        <img src="image/20240202_135830.jpg" alt="profile picture">
+        <img data-testid="slackProfilePicture" src="image/20240202_135830.jpg" alt="profile picture">
        </div>
        <div class="my-details">
           <div class="detail">
              <span class="lable">SlackName :</span>
-             <span class="value" data-testid="Ochewola">Ochewola</span>
+             <span class="value" data-testid="Ochewola">ochewola</span>
           </div>
           <div class="detail">
              <span class="lable">SlackEmail :</span>
@@ -38,17 +38,23 @@
              <h2 class="goal-header">Tech Goals For Next Two Years</h2>
              <div class="goals">
                <ol>
-                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta nostrum nesciunt nam recusandae tenetur quibusdam voluptatem. Beatae nam, nobis nisi ducimus illum aliquid ratione quibusdam dolor, necessitatibus, ex et.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam necessitatibus, nihil perspiciatis iusto enim exercitationem culpa voluptatum saepe debitis expedita itaque incidunt velit nisi. Quas, neque! Totam excepturi consectetur incidunt.</li>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum enim molestias quae dolorum, quas error aliquam id doloribus modi aperiam officia suscipit nemo, optio dolor rerum laudantium molestiae mollitia corporis!</li>
+                  <li>One of my major goals for the next two year is to up scale and be proficient in software development, though consistant learning and practice</li>
+                  <li>Be able to effortlessly build and collabrate on problem solving project like
+                      <a href="http://scrapeanyweb.site/" target="_blank" data-testid="keywordLink">scrapeanyweb</a>
+                       and
+                       <a href="http://keyword.dog/" target="_blank" data-testid="keywordLink">Keyword.dog</a> , most epecially in the Agric tech ecosystem</li>
+                  <li> Make a livng out of tech, throug providing solutions to client problems(freelancing) and securing a job as a fulltime developer in a growth friendly enviroment sorrounded by individulas more expriencd and knowlageble than me </li>
+                  <li>Set up a more convienient workspace in other to boost my productivety</li>
                </ol>
              </div>
           </div>
        </div>
     </main>
 
-    <footer>
-      <a href="http://hng.tech/learn" target="_blank">Vist Hng Website to learn more</a>
+    <footer class="footer">
+      <a href="http://hng.tech/learn" target="_blank" data-testid="hngLink">Hng internship project for stage One</a>
+
+
     </footer>
 
     <script src="javascript.js"></script>
